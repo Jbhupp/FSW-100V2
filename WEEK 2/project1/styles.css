@@ -1,0 +1,50 @@
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+    text-align: center;
+    color: green
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#first-para, #second-para, #third-para {
+    color: black
+}
+
+#second-para, #third-para{
+    text-align: left;
+}
+
+body{
+    background-color: lightcyan;
+}
+#first-para, #second-para, #third-para {
+    line-height: 20px;
+}
+a { text-decoration:none; }
+
+a:hover {
+    text-decoration: underline;
+}
+img {
+        float: left;
+}
+img {
+    display: inline-block;
+    margin: 40px 20px; 
+  }
+ #number-alpha{
+    list-style-type:disc;
+ }
+ 
+ 
