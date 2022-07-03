@@ -1,0 +1,218 @@
+.fixed-nav-bar { 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    width: 50%; 
+    height: 50px; 
+    font-size: larger
+        
+}
+
+@import url("https://fonts.google.com/specimen/Gulzar");
+
+.businessName{
+    font-size: 80px;
+    color: deeppink;
+    text-align: center;
+    background-color: cyan;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+
+body header{
+    font-size: x-large;
+    text-align: left;
+}
+
+article{
+    font-size: 50px;
+    color:deeppink;
+    text-align:center;
+    position: center;
+    left: 300px;
+    top: 150px;
+    border: 25 black;
+    background-color: white;
+}
+.pic1{
+    border: 25px solid cyan;
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+    padding: 35px white;
+    margin: 75px;
+}
+
+.pic2{
+    border: 25px solid cyan;
+    float: right;
+    max-width: 600px;
+    max-height: 500px;
+    padding: 50px white;
+    margin: 50px;
+
+}
+.pic3{
+    max-width: 100%;
+    max-height:fit-content;
+    border: 25px solid cyan;
+    float:inline-start;
+    margin: 100px;
+    padding: 35px white;
+          
+}
+
+.pic4{
+    max-width: 100%;
+    max-height:fit-content;
+    border: 25px solid rgb(33, 38, 38);
+    float: none inherit left right initial;
+    margin: 100px;
+    padding: 35px white;
+          
+}
+
+main{
+    background-image: url(https://images.unsplash.com/photo-1468421870903-4df1664ac249?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHRzaGlydCUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: separate;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:larger;
+    color: black;
+}
+
+table{
+	background-color: white;
+    color: black;
+}
+
+table:hover {
+	background-color: cyan;
+    color: black;
+}
+
+td {
+    color: black;
+    padding: 20px;
+} 
+
+ul {
+    
+    font-style: italic;
+    color: cyan;
+    width: 35%;
+    height: 50%;
+    text-align: center;
+    display: inline-block;
+    list-style: inside;
+    font-size: 32px;
+}
+
+ul{
+    background-color: deeppink;
+}
+ul:hover{
+    background-color:lime;
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    font-size:large;
+      
+}
+
+.terms{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.button {
+    background-color: black;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: cyan;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+.order {
+    background-color: black;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    border: none;
+    color: cyan;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+
+.order{
+    font-size: x-large;
+    color: cyan;
+    font-style: italic;
+  }
+
+.logo{
+    
+        animation-duration: 3s;
+        animation-name: slidein;
+}
+      
+@keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+}
+
+
+
+@keyframes blink {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
+}
+
+.order{animation: blink 1s infinite;}
